@@ -1,6 +1,7 @@
 --mkdir http_data_hive
 --wget https://storage.googleapis.com/public-bucket-up-2022/email.csv
 --wget https://storage.googleapis.com/public-bucket-up-2022/http_sentiment_raw.csv
+--hadoop distcp gs://[bucket]/[archivo] [destino HDFS]
 
 
 

@@ -24,4 +24,5 @@ source ~/.bashrc
 
 
 #Test sqoop connection
+ sqoop list-databases --connect jdbc:mysql://34.75.67.253 --username sqoop_user --password Example123
 sqoop import --connect jdbc:mysql://[Host]/[DataBase] --table  --username [User] --password [Password]
